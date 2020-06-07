@@ -13,7 +13,7 @@ variable "shared_credentials_file" {
 }
 
 variable "profile"  {
-  default   = "default"
+  default   = "training"
   description = "Name of profile"
 }
 

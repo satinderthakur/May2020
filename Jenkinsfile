@@ -8,7 +8,7 @@ pipeline
             {
                 script
                 {
-                    git 'https://github.com/satinderthakur/April2020.git'
+                    git 'https://github.com/satinderthakur/May2020.git'
                 }
             }
         }
@@ -28,7 +28,7 @@ pipeline
                 }
             }
         }
-        stage('Terraform Apply'){
+        stage('Terraform Apply for ECS'){
 			steps{
 				script{
 					bat'''

@@ -15,6 +15,7 @@ tags = {
              yum install httpd -y
              service httpd start
              service httpd on
+             echo "Hello World" > /var/www/html/index.html
              sudo yum update -y
              amazon-linux-extras install docker -y
              service docker start
